@@ -1,5 +1,5 @@
-name: Build and Test
-run-name: Build and Test workflow
+name: Build
+run-name: Build workflow
 on:
     push:
     pull_request:
