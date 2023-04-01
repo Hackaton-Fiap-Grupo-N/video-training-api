@@ -6,10 +6,8 @@ on:
             - main
         types:
             - opened
-            - closed
 jobs:
     deploy:
-        needs: build
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
